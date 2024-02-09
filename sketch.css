@@ -1,3 +1,17 @@
-.container{
-    background-color:red;
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 512px;
+    height: 512px;
+}
+
+.row {
+    display: flex;
+    flex-grow: 1;
+}
+
+.pixel {
+    flex-grow: 1;
+    background-color: gainsboro;
+    border: solid white;
 }
