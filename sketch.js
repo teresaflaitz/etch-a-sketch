@@ -35,7 +35,8 @@ let deleteGrid = function(){
 };
 
 btn.addEventListener("click", (event) => {
+    let gridSize = prompt("Enter grid size (max 100)");
     console.log("Button clicked!");
-    /*deleteGrid();*/
-    /*createGrid();*/
+    deleteGrid();
+    createGrid(gridSize);
 });
